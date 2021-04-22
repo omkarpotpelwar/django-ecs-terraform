@@ -45,3 +45,9 @@
     $ cd deploy
     $ python update-ecs.py --cluster=production-cluster --service=production-service
     ```
+1. Note: If you get any SSH key error, create an SSH key on your machine using the following commands:
+    
+    ```sh
+    $ cd ~ && mkdir .ssh && cd .ssh
+    $ ssh-keygen 
+    ```
